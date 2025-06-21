@@ -1,10 +1,8 @@
 WorldgenEvents.remove(event => {
     event.removeOres(props => {
         props.blocks = [
-            'minecraft:coal_ore',
-            'minecraft:iron_ore',
-            'minecraft:diamond_ore',
-            'minecraft:gold_ore',
+            'create_new_age:thorium_ore',
+            'create_new_age:magnetite_block'
         ];
     })
 })

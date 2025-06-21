@@ -77,4 +77,27 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create_new_age:energising/splash_water_bottle' })
     // Enchantment Industry
     event.remove({ id: 'create_enchantment_industry:mixing/hyper_experience' })
+    // Ore Excavation
+    event.remove({ id: 'createoreexcavation:ore_vein_type/diamond' })
+    event.remove({ id: 'createoreexcavation:drilling/diamond' })
+    event.remove({ id: 'createoreexcavation:ore_vein_type/hardened_diamond' })
+    event.remove({ id: 'createoreexcavation:drilling/hardened_diamond' })
+    event.remove({ id: 'createoreexcavation:ore_vein_type/gold' })
+    event.remove({ id: 'createoreexcavation:drilling/gold' })
+    event.remove({ id: 'createoreexcavation:ore_vein_type/emerald' })
+    event.remove({ id: 'createoreexcavation:drilling/emerald' })
+
+    // Sophisticated Backpacks
+    event.remove({ output: 'sophisticatedbackpacks:advanced_void_upgrade' })
+    event.remove({ output: 'sophisticatedbackpacks:inception_upgrade' })
+    event.remove({ output: 'sophisticatedbackpacks:void_upgrade' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_downgrade_tier_1' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_downgrade_tier_2' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_downgrade_tier_3' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_1' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_2' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_3' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_4' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_omega_tier' })
 })
