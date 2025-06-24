@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'minecraft:beacon',
-            B: 'create_new_age:copper_circuit',
+            B: 'pneumaticcraft:printed_circuit_board',
             C: 'create_new_age:overcharged_diamond',
             D: 'thermal:netherite_plate',
             E: 'thermal:netherite_gear',
