@@ -3,6 +3,9 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'cb_microblock' })
 
     // Thermal
+    // OP Shit
+    event.remove({ id: 'thermal:machines/crystallizer/crystallizer_amethyst_cluster' })
+
     // Plates
     event.remove({ output: 'thermal:iron_plate' })
     event.remove({ output: 'thermal:gold_plate' })
@@ -100,4 +103,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_3' })
     event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_tier_4' })
     event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_omega_tier' })
+
+    // Pneumaticcraft
+    event.remove({ id: 'pneumaticcraft:pneumatic_boots' })
+    event.remove({ id: 'pneumaticcraft:pneumatic_leggings' })
+    event.remove({ id: 'pneumaticcraft:pneumatic_chestplate' })
+    event.remove({ id: 'pneumaticcraft:pneumatic_helmet' })
 })
